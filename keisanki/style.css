@@ -1,7 +1,7 @@
-body h3{
-    text-align: left;
-}
-body h1{
+body{
     text-align: center;
     width: auto;
+}
+body h3{
+    text-align: left;
 }
