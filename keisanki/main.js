@@ -1,6 +1,7 @@
 console.log("JS");
 $(document).ready(()=>{
 	console.log("Ready!!");
+    $('input:radio[name="zeiritu"]').val(["1.1"]);
 	$("#btn").click(()=>{
         let zei = 1.1;
         let sum = $("#kingaku_number").val();
@@ -8,7 +9,7 @@ $(document).ready(()=>{
         if(zei==9646){
             zei =1+ ($("#zeiritu_number").val()*0.01);
         }
-		$("#result").text(parseInt(sum*zei)+"円(内税金"+parseInt(sum*(zei-1))+"円)");
+		$("#result").text(parseInt(sum*zei)+"円(内税金"+parseInt(sum*(zei-1))+"円)");    
 	})
     $("#ni_btn").click(()=>{
         let nisin = $("#ni_number").val();
