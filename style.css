@@ -1,9 +1,73 @@
 body{
     background-color: skyblue;
-    width: 1000px;
-    padding: 0 15%;
-    text-align: center;
+    
 }
-body .main{
+header h1{
+text-align: center;
+}
+header,nav,#contents{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    background-color: beige;
+}
+nav ul{
+    text-align: center;
+    list-style: none;
+    margin: 0 100px 20px 100px;
+    padding: 10px 0 10px 0;
+    overflow: hidden;
+}
+nav ul li{
+    width: 20%;
+    float: left;
+}
+nav ul li a{
+    display: block;
+    overflow: hidden;
+}
+#contents{
+    background-color: black;
+    color: white;
+}
+.main{
+    background-color: black;
+    color: white;
+    text-align: center;   
+    width: 70%;
+    float: right;
+}
+.main h3{
+    float: left;
+}
+.sub{
+    background-color: white;
+    color: black;
+    width: 30%;
+    float: left;
+}
+.sub h2{
+    padding-left: 10%;
+}
+/*おみくじの設定*/
+#omikuji{
+    width: auto;
+    background-color: bisque;
+    color: black;
+}
+/*計算機の設定*/
+#zeiritu_number{
+    width: 40px;
+}
+/*あうとの設定*/
+
+/*ガソリン計算の設定*/
+#gasorin{
+    margin-left: 35%;
     text-align: left;
+}
+#gasorin_kingaku,#soukou_kyori,#kuruma_nenpi{
+    width: 80px;
 }
