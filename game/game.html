@@ -3,7 +3,7 @@
     <head>
         <link rel="stylesheet" href="../style.css">
         <meta charset="UTF-8"/>
-        <title>You must't play THIS!!</title>
+        <title>You can't play THIS!!</title>
     </head>
     <body>
         <header id="top">
@@ -11,23 +11,35 @@
         </header>
         <nav>
             <ul>
-                <li><a href="../omikuji/index.html">おみくじ</a></li>
-                <li><a href="../keisanki/keisan.html">でんたく</a></li>
-                <li><a href="../gasorin/gasorin.html">がそりん</a></li>
-                <li><a href="../tomas/index.html">あうと</a></li>
-                <li><a href="../game/game.html">げーむ</a></li>
+                <li id="omikuji_html"><a href="../omikuji/index.html">おみくじ</a></li>
+        <li id="keisan_html"><a href="../keisanki/keisan.html">でんたく</a></li>
+        <li id="gasorin_html"><a href="../gasorin/gasorin.html">がそりん</a></li>
+        <li id="tomas_html"><a href="../tomas/index.html">あうと</a></li>
+        <li id="game_html"><a href="../game/game.html">げーむ</a></li>
             </ul>
         </nav>
         <div id="contents">
             <div class="sub">
                 <h2>変更履歴</h2>
+                <ul>
                     <li>2023/11/07:ゲーム用サイト実装</li>
+                </ul>
+                <h2>ゲーム補足説明</h2>
+                <ul>
+                    <a ><li>操作について(実装中)</li></a>
+                    <a ><li>スキルの種類について(実装中)</li></a>
+                    <a ><li>アビリティの補足(実装中)</li></a>
+                    <a ><li>スキルスロットについて(実装中)</li></a>
                 </ul>
             </div>
             <div class="main">
                 <h3><a href="../index.html">←もどる</a></h3>
                 <h2>製作中</h2>
+                <img id="img_1" src="images/game_img_2.png" width="500px">
             </div>
     </div>
+    <!-- JavaScriptをロードする -->
+    <script src="//code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="main.js"></script>
     </body>
 </html>
