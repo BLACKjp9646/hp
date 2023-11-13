@@ -4,6 +4,7 @@ body{
 }
 header h1{
 text-align: center;
+text-decoration: none;
 }
 header,nav,#contents{
     width: 1000px;
@@ -16,6 +17,7 @@ nav{
 nav ul{
     text-align: center;
     list-style: none;
+    
     margin: 0 100px 20px 100px;
     padding: 10px 0 10px 0;
     overflow: hidden;
@@ -25,8 +27,16 @@ nav ul li{
     float: left;
 }
 nav ul li a{
-    display: block;
+    display: block;   
     overflow: hidden;
+    
+}
+nav ul li a:link,nav ul li a:visited,nav ul li a:hover,nav ul li a:active, header a:link,header a:visited,header a:hover,header a:active{
+    color: black;
+    text-decoration: none;
+  }
+#omikuji_html:hover,#keisan_html:hover,#gasorin_html:hover,#tomas_html:hover,#game_html:hover{
+    background-color: gray;
 }
 #contents{
     background-color: black;
@@ -42,6 +52,9 @@ nav ul li a{
 .main h3{
     float: left;
 }
+h3 a:link,h3 a:visited,h3 a:hover,h3 a:active {
+    color: white;
+  }
 .sub{
     background-color: white;
     color: black;
@@ -70,4 +83,70 @@ nav ul li a{
 }
 #gasorin_kingaku,#soukou_kyori,#kuruma_nenpi{
     width: 80px;
+}
+/*gameの設定*/
+
+/*game_contの設定*/
+#game_table{
+    width: 550px;
+    margin-left:10%;
+    margin-bottom:10%;
+    border-collapse: collapse;
+
+}
+#game_table th ,#game_table td{
+    border: 1px white solid;
+    padding: 5px;
+}
+#game_table tr:nth-child(even){
+    background-color: gray;
+}
+/*game_skillの設定*/
+  
+#gameskill_container{
+	width: 90%; height: auto;
+    margin-left: 5%;
+    margin-bottom: 10%;
+	background-color: gray;
+}
+
+#gameskill_tabs{
+	/*width: 100%; height: auto;*/
+	background-color: silver;
+	box-sizing: border-box;
+	border-left: 1px solid gray;
+	border-bottom: 4px solid gray;
+	display: flex;
+	justify-content: start;
+}
+
+.imgitem{
+	width: calc(100%/4); height: 150px;
+	margin: 0px; padding: 5px 10px;
+	text-align: center;
+	box-sizing: border-box;
+	border-right: 1px solid gray;
+	border-top: 1px solid gray;
+}
+
+.imgitem_active{
+	background-color: gray;
+	color: white;
+}
+#expo_text{
+	width: 100%; height: 300px;
+	margin: 0px; padding: 10px;
+	background-color: whitesmoke;
+	box-sizing: border-box;
+    color: black;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+    text-align: left;
+}
+#expo_text h2{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 1px;
+    line-height: 0;
 }
