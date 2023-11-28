@@ -1,35 +1,58 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <script src="main.js"></script>
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_2.css">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BLACK site</title>
 </head>
-<body>
-    <header id="top">
-        <h1>いろいろと置いておくサイト</h1>
+<body class="container">
+    <div class="gonav_container">
+        <ul class="gonav">
+            <a href="#my_expo"><li>About</li></a>
+            <a href="#backpoint"><li>production</li></a>
+        </ul>
+    </div>
+    <header class="top main">
+        
+        <h1>制作物一覧</h1>
     </header>
-    <nav>
+    <div>
+        <div id="my_expo">
+            <h1>作る物の傾向</h1>
+            <p>基本的には自分の興味の赴くままに作っています。その中でも自作ゲーム関連が多く、Blender、Unityで作ったものが数多く存在してます。
+                今後もおそらく似たようなのが増えると思いますが全て自分が面白そう、作りたいと思ったものを作っているというのは変わらないと思います。
+            </p>
+        </div>
+        <nav id="backpoint">
         <ul>
-        <li id="omikuji_html"><a href="omikuji/index.html">おみくじ</a></li>
-        <li id="keisan_html"><a href="keisanki/keisan.html">でんたく</a></li>
-        <li id="gasorin_html"><a href="gasorin/gasorin.html">がそりん</a></li>
-        <li id="tomas_html"><a href="tomas/index.html">あうと</a></li>
-        <li id="game_html"><a href="game/game.html">げーむ</a></li>
+            <li><a href="./BMIkeisan/BMIkeisan.html"><time datetime="2023-11-19">2023/11/19作成</time><img src="./images/makesaite_6.png"><span id="math_list">math</span><p>BMI計算機</p></a></li>
+            <li><a href="./model_1.html"><time datetime="2023-11-19">2023/11/19作成</time><img src="./images/makesaite_7.png"><span id="modeling_list">modeling</span><p>敵1君</p></a></li>
+            <li><a href="./tomas/index.html"><time datetime="2023-11-19">2023/11/19作成</time><img src="./images/makesaite_4.png"><span id="other_list">other</span><p>画像増殖</p></a></li>
+        </ul>
+        <ul>
+            <li><a href="./keisanki/keisan.html"><time datetime="2023-11-19">2023/11/19作成</time><img src="./images/makesite_1.png"> <span id="math_list">math</span><p>足し算+2進数変換</p></a></li>
+            <li><a href="./omikuji/index.html"><time datetime="2023-10-03">2023/10/03作成</time><img src="./images/makesaite_2.png"><span id="other_list">other</span><p>おみくじ</p></a></li>
+            <li><a href="./gasorin/gasorin.html"><time datetime="2023-11-19">2023/11/19作成</time><img src="./images/makesaite_3.png"><span id="math_list">math</span><p>ガソリン計算</p></a></li>
+        </ul>
+        <ul>
+            <li><a href="./model_3.html"><time datetime="2023-11-19">2023/11/19作成</time><img src="./images/makesaite_8.png"> <span id="modeling_list">modeling</span><p>敵2君</p></a></li>
+            <li><a href="./model_4.html"><time datetime="2023-10-03">2023/10/03作成</time><img src="./images/makesaite_10.png"><span id="modeling_list">modeling</span><p>敵4君</p></a></li>
+            <li><a href="./model_2.html"><time datetime="2021-12-24">2021/12/24作成</time><img src="./images/makesaite_9.png"><span id="modeling_list">modeling</span><p>ボス1号君</p></a></li>
+        </ul>
+        <ul>
+            <li><a href="./model_5.html"><time datetime="2021-11-26">2021/11/26作成</time><img src="./images/makesaite_11.png"> <span id="modeling_list">modeling</span><p>teki1号君</p></a></li>
+            <li><a href="./model_4.html"><time datetime="2023-10-03">2023/10/03作成</time><img src="./images/makesaite_10.png"><span id="modeling_list">modeling</span><p>敵4君</p></a></li>
+            <li><a href="./model_2.html"><time datetime="2023-11-19">2023/11/19作成</time><img src="./images/makesaite_9.png"><span id="modeling_list">modeling</span><p>ボス1号君</p></a></li>
         </ul>
     </nav>
-    <div id="contents">
-        <div class="sub">
-            <h2>変更履歴</h2>
-            <ul>
-                <li>2023/11/07:レイアウト更新</li>
-            </ul>
-        </div>
-        <div class="main">
-            <h2>トップページ is here</h2>
-        </div>
-    
+    <footer>
+        Copyright © black(ueda ryouta)2023 All rights reserved.
+    </footer>
 </div>
+    <a href="#top"><div class="disactive_footer">↑</div></footer></a>
+    <script src="//code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.js" defer></script>
+	<script src="./sub.js"></script>
 </body>
 </html>

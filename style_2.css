@@ -1,0 +1,215 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.container{
+    background: url(./images/backimage_1.png) no-repeat center;
+    background-color: black;
+    background-attachment:fixed;
+    margin: 0;
+    padding: 0;
+    height: 1160px;
+    width: 100%;
+    text-align: center;
+}
+header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.gonav_container{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.gonav{
+    
+        display: flex;
+        margin:0 0 50px 0;
+        list-style: none;
+        
+}
+.gonav a li{
+    display: block;
+    color: #fff;
+    padding:10px 30px;
+    text-decoration: none;
+}
+.gonav a{
+    
+    margin-bottom: 20px;
+
+    position: relative;
+}
+.gonav a:hover{
+	color:aqua;
+}
+.gonav a::after {
+    content: '';
+    /*絶対配置で線の位置を決める*/
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    /*線の形状*/
+    width: 80%;
+    height: 2px;
+    background:aqua;
+    /*アニメーションの指定*/
+    transition: all .3s;
+    transform: scale(0, 1);/*X方向0、Y方向1*/
+    transform-origin: center top;/*上部中央基点*/
+}
+
+.gonav a:hover::after {
+    transform: scale(1, 1);/*X方向にスケール拡大*/
+}
+header h1{
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+}
+.addimg{
+    animation: fadeUp 1s forwards;
+    background: url(./images/backimage_2.png) no-repeat  center;
+    background-attachment:fixed;
+    margin: 0;
+    padding: 0;
+    height: 1160px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+.addimg::before{
+    content: "";
+    transition: 0.5;
+    position: fixed;
+    top: 0;  bottom: 0;
+    left: 0;  right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    /*opacity:0.4;*/
+}
+#my_expo{
+    margin: 900px auto 0 auto;
+    padding-top: 100px;
+    height: 400px;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 5% 40% 40%;
+    grid-template-rows: 400px;
+    text-align: center;
+}
+#my_expo h1{
+font-size: 50px;
+grid-column: 2;
+margin-left: 100px;
+}
+#my_expo p{
+    font-size: 20px;
+    grid-column:3;
+    margin-left: 5%;
+    }
+nav{
+    position: absolute;
+    width: 100%;
+    padding-top: 50px;
+    
+    background:rgba(255,255,255, 0.7);
+}
+nav ul{
+    list-style: none;   
+    font-size: 0;
+    display: inline;
+}
+nav ul li img{
+    width:300px;
+    height: 200px;
+}
+nav ul li a:hover{
+    content: "";
+    transition: 0.5;
+    top: 0;  bottom: 0;
+    left: 0;  right: 0;
+    background: white;
+    opacity:0.4;
+}
+nav ul li time{
+    float: left;
+    font-size: 10px;
+}
+nav ul li span{
+    background-color: whitesmoke;
+}
+nav ul li{
+    width: 300px;
+    font-size: 14px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 50px 25px 50px;
+}
+nav ul li:nth-child(3){
+    width: 300px;
+    font-size: 14px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 25px 50px;
+}
+nav ul li #math_list{
+    width: 100%;
+background-color: aqua;
+padding: 5px 44.3%;
+}
+nav ul li #other_list{
+    width: 100%;
+    background-color: gray;
+    padding: 5px 44.3%;
+}
+nav ul li #game_list{
+    width: 100%;
+    background-color: red;
+    padding: 5px 44.3%;
+}
+nav ul li #modeling_list{
+    width: 100%;
+    background-color: orange;
+    padding: 5px 39%;
+}
+footer{
+    margin-top: 1000px;
+}
+a:link,a:visited,a:active{
+    color: black;
+    text-decoration: none;
+  }
+@keyframes fadeUp{
+    0%{opacity:0;}
+  100%{opacity:1;}
+}
+
+.disactive_footer{
+    display: none;
+}
+.active_footer{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background: #fff;
+    border: solid 2px #000;
+    border-radius: 50%;
+    display: flex;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.active_footer:hover{
+border:solid 2px blue;
+background: beige;
+}

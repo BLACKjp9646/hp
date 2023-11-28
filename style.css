@@ -28,14 +28,13 @@ nav ul li{
 }
 nav ul li a{
     display: block;   
-    overflow: hidden;
-    
+    overflow: hidden
 }
 nav ul li a:link,nav ul li a:visited,nav ul li a:hover,nav ul li a:active, header a:link,header a:visited,header a:hover,header a:active{
     color: black;
     text-decoration: none;
   }
-#omikuji_html:hover,#keisan_html:hover,#gasorin_html:hover,#tomas_html:hover,#game_html:hover{
+#omikuji_html:hover,#keisan_html:hover,#gasorin_html:hover,#actlist:hover,#game_html:hover{
     background-color: gray;
 }
 #contents{
@@ -54,6 +53,12 @@ nav ul li a:link,nav ul li a:visited,nav ul li a:hover,nav ul li a:active, heade
 }
 h3 a:link,h3 a:visited,h3 a:hover,h3 a:active {
     color: white;
+    text-decoration: none;
+  }
+  a:link,a:visited,a:hover,a:active {
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
   }
 .sub{
     background-color: white;
@@ -83,6 +88,11 @@ h3 a:link,h3 a:visited,h3 a:hover,h3 a:active {
 }
 #gasorin_kingaku,#soukou_kyori,#kuruma_nenpi{
     width: 80px;
+}
+/*BMI計算の設定*/
+#bmi{
+    margin-left: 35%;
+    text-align: left;
 }
 /*gameの設定*/
 
