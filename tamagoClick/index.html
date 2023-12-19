@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="./images/favicon.ico">
+	<title>You must click this Egg!</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+	integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin/>
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/xxjapp/xdialog@3/xdialog.min.css">
+	<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+	<header id="top">
+		<a href="../index.html"><h1>いろいろと置いておくサイト</h1></a>
+	</header>
+	<div id="contents">
+		<div class="sub">
+			<h2>変更履歴</h2>
+			<ul>
+				<li>2023/12/12:卵押実装</li>
+			</ul>
+		</div>
+		<div class="main">
+			<h3><a href="../index.html#backpoint">←もどる</a></h3>
+			<h2>たまごくりっく</h2>
+
+	<a href="#"><img src="./Egg.png" id="egg" class="animate__animated"></a>
+	<p id="egg_counter">100000</p>
+	<div id="egg_container">
+	<input id="egg_dataload" type="button" value="データ呼出">
+	<input id="egg_datasave" type="button" value="データ保存">
+	<input id="egg_datadelete" type="button" value="ユーザーデータ消去">
+	</div>
+	<!-- JavaScript -->
+	<script src="//code.jquery.com/jquery-3.6.1.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/howler@2.2.3/dist/howler.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/axios@0.21.1/dist/axios.min.js"></script>
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+	integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+	crossorigin></script>
+	<script src="//cdn.jsdelivr.net/gh/xxjapp/xdialog@3/xdialog.min.js"></script>
+	<script src="./main.js"></script>
+</body>
+</html>

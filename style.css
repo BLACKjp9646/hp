@@ -160,3 +160,78 @@ h3 a:link,h3 a:visited,h3 a:hover,h3 a:active {
     padding-bottom: 1px;
     line-height: 0;
 }
+/*maplandGoの設定*/
+#mapid{
+	margin: 0 auto; padding: 0px;
+	width: 480px; height: 320px;
+	background-color: gray;
+}
+#map_container{
+    margin: 20px 100px 20px 50px;
+    padding-left: 30px;
+    width: 600px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 40% 25% 25%;
+    grid-row: 50% 50%;
+}
+#mondai_map{
+    grid-column: 1;
+    grid-row: 1/3;
+    background-color: greenyellow;
+}
+#behind_back{
+    grid-column: 3;
+    grid-row: 1;
+    background-color: red;
+}
+#now_map{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: aqua;
+}
+#Nextmap{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: whitesmoke;
+}
+#Hintmap{
+    grid-column: 3;
+    grid-row: 2;
+    background-color: yellow;
+}
+/*Weaterの設定*/
+#weather_container{
+display: flex;
+padding-top: 20px;
+}
+#weather_one{
+    border: 1px white solid;
+    width: 100%;
+    text-align: center;
+}
+.weather_date, .weather,.weather_maxtemp,.weather_mintemp{
+    border-bottom: 1px white solid;
+    
+}
+.weather_date{
+    height: 40px;
+}
+.weather{
+    font-size: 14px;
+}
+.weather_maxtemp{
+color: red;
+}
+.weather_mintemp{
+    color: aqua;
+    }
+#weather_list{
+    width: 100px;
+}
+/*タマゴクリック*/
+#egg_anim{
+    
+    animation-duration: 0.5s;
+	animation-delay: 1.25s;
+}
