@@ -7,6 +7,9 @@
         ,{"Title":"敵3号君","Category":"model","link":"./modelSite/model_4.html","image":"./images/model_4.png","Date":"2023/10/20"}
         ,{"Title":"2024アイコン","Category":"image","link":"./imageSite/2024Icon.html","image":"./images/2024Icon_site.png","Date":"2024/1/12"}
         ,{"Title":"要素の中の要素の取得方法","Category":"fightdebug","link":"./fightbug/div_list_element.html","image":"./images/debug_1_site.png","Date":"2024/5/14"}
+        ,{"Title":"比率計算機","Category":"math","link":"./ratio_math/ratio_math.html","image":"./images/ratio_math.png","Date":"2024/06/07"}
+        ,{"Title":"乱数生成機","Category":"other","link":"./randomGene/randomGene.html","image":"./images/random_Gene.png","Date":"2024/06/11"}
+        ,{"Title":"ガチャ確率計算機","Category":"math","link":"./Gacha/Gacha.html","image":"./images/Gacha.png","Date":"2024/06/18"}
        ]
     ,"all":[
         {"Title":"teki1号君","Category":"model","link":"./modelSite/model_5.html","image":"./images/model_5.png","Date":"2021/10/9"}
@@ -25,6 +28,11 @@
         ,{"Title":"スライドパズル","Category":"game","link":"./cubegame/index.html","image":"./images/slidepazul.png","Date":"2023/12/19"}
         ,{"Title":"2024アイコン","Category":"image","link":"./imageSite/2024Icon.html","image":"./images/2024Icon_site.png","Date":"2024/1/12"}
         ,{"Title":"要素の中の要素の取得方法","Category":"fightdebug","link":"./fightbug/div_list_element.html","image":"./images/debug_1_site.png","Date":"2024/5/14"}
+        ,{"Title":"敵キャラを突進させる","Category":"fightdebug","link":"./fightbug/rush_unity.html","image":"./images/debug_2_site.png","Date":"2024/5/24"}
+        ,{"Title":"比率計算機","Category":"math","link":"./ratio_math/ratio_math.html","image":"./images/ratio_math.png","Date":"2024/06/07"}
+        ,{"Title":"乱数生成機","Category":"other","link":"./randomGene/randomGene.html","image":"./images/random_Gene.png","Date":"2024/06/11"}
+        ,{"Title":"ガチャ確率計算機","Category":"math","link":"./Gacha/Gacha.html","image":"./images/Gacha.png","Date":"2024/06/18"}
+        ,{"Title":"図形計算機","Category":"math","link":"./shape_math/shape_math.html","image":"./images/Gacha.png","Date":"2024/06/18"}
        ]
 }
 ]
